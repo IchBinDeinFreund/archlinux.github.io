@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Am Archlinux</title>
+<style>
+  /* Updated styles for the background */
+  body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ccc; /* Gray background */
+  }
+
+  #gif {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+
+  /* Your existing styles */
+
+  /* Additional styles for the profile card */
+  .profile-card {
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    color: white;
+
+    /* Box styles */
+    width: 300px;
+    padding: 50px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.233);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    margin-top: -20px;
+  }
+
+  .profile-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .profile-description {
+    font-size: 16px;
+    color: #dbdada;
+  }
+</style>
+</head>
+<body>
+<img id="gif" src="images/wallpaper.gif" alt="Background GIF">
+<div class="profile-card">
+  <img class="profile-image" src="images/logo.gif" alt="Profile Image">
+  <div class="profile-name">Archlinux</div>
+  <div class="profile-description">Java, css, html, c# Developer. Archlinux, sxlent on top ┃ fuck skids</div>
+</div>
+<script>
+  // Your existing script
+</script>
+</body>
+</html>
